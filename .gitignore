@@ -1,0 +1,20 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Local/generated backend output
+backend/data/processing.log
+backend/data/media/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local editor settings
+.vscode/
